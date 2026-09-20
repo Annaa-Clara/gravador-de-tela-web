@@ -1,8 +1,3 @@
-# Sobe um PostgreSQL local para desenvolvimento do backend.
-# Uso: docker compose up -d
-# String de conexão resultante (já é o padrão em backend/.env.example):
-#   postgres://gravador:gravador@localhost:5432/gravador_de_tela
-
 services:
   postgres:
     image: postgres:16-alpine
