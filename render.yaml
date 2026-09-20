@@ -1,11 +1,3 @@
-# Render Blueprint — permite criar o serviço com "New > Blueprint" no
-# dashboard do Render, apontando para este repositório, em vez de
-# preencher cada campo manualmente. DATABASE_URL e JWT_SECRET continuam
-# sendo preenchidos por você (não ficam no código) — o Render pede isso
-# na hora de aplicar o blueprint, já que estão marcados como "sync: false".
-#
-# Documentação: https://render.com/docs/blueprint-spec
-
 services:
   - type: web
     name: gravador-de-tela-api
