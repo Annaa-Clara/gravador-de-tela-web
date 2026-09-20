@@ -1,31 +1,23 @@
-# Dependências
 node_modules/
 
-# Builds
 dist/
 build/
 
-# Ambiente
 .env
 .env.local
 .env.*.local
 
-# Uploads locais do backend (armazenamento em disco de desenvolvimento)
 backend/uploads/
 
-# Logs
 *.log
 npm-debug.log*
 
-# Editor/OS
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
 .idea/
 
-# Testes/cobertura
 coverage/
 
-# Vite/PWA
 dist-ssr/
 *.local
